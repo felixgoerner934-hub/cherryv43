@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cherryclient",
+  "version": "${version}",
+  "name": "Cherry Client",
+  "description": "Base-Finder mit cleaner weisser Cherry-Porsche-GUI.",
+  "authors": ["Cherry"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.cherry.client.CherryClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
